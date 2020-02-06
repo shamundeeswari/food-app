@@ -1,0 +1,63 @@
+
+
+
+<div class="wrapp">
+
+  <div class="beefsteak">
+
+  	<app-top-bar></app-top-bar>
+    
+    <div class="content">
+		<div class="hotel-spot">
+			<h3 class="hotel"> {{hotel.name}} </h3>
+		 	<p> {{hotel.type}}</p>
+		 </div>
+	 		<div class="food-list-detail" *ngIf="hotel.item">
+		 	
+				<div class="food-list list-detail" 
+					 *ngFor = "let item of hotel.item"
+				     >
+				    
+						<span class="ribbon5 best" *ngIf= item.bestseller>
+							<div class="glow">&nbsp;</div> {{item.bestseller}}
+						</span>
+
+						<div class="img">
+							<img [src]="item.img" alt="{{item.name}}">
+						</div>
+
+						<div class="food-detail  veg-light">
+
+							<p> {{item.description}}</p>
+
+							<div class="item">			
+								<span class="mark"></span>			
+									<h5>		
+										{{item.name}}
+									</h5>								
+							</div>
+						
+						
+							<div class="location">
+								<div class="locat">
+								 <strong>&#8377; {{item.price}}</strong>
+								</div>
+									
+								<div class="food-add">
+									<button class=" btn ">Add</button>
+									<!-- <button>
+										<ul><li class="remove">-</li>
+										<li>1</li>
+										<li>+</li>
+										</ul>
+									</button> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+

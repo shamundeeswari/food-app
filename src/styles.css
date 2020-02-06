@@ -1,0 +1,300 @@
+/* You can add global styles to this file, and also import other style files */
+
+.wrapp {
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapp .source {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+.wrapp .source a, .wrapp .source a:visited {
+  color: #C1C1C1;
+  text-decoration: none;
+  -webkit-transition: color .5s ease;
+  transition: color .5s ease;
+}
+.wrapp .source a:hover, .wrapp .source a:visited:hover {
+  color: #E74886;
+}
+.wrapp .beefsteak {
+    margin: 0 auto;
+    width: 325px;
+    height: 590px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 5px solid #2b2b2b;
+}
+.wrapp .beefsteak .menu {
+  position: absolute;
+  padding: 15px;
+  top: 20px;
+  left:0px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.wrapp .beefsteak .menu:focus{
+  outline: none;
+}
+.wrapp .beefsteak .menu .burger {
+  position: relative;
+  width: 19px;
+  height: 2px;
+  background-color: #000;
+  opacity: .8;
+  border-radius: 10px;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.wrapp .beefsteak .menu .burger:after, .wrapp .beefsteak .menu .burger:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #000;
+  border-radius: 10px;
+}
+.wrapp .beefsteak .menu .burger:after {
+  top: 8px;
+  width: 20px;
+}
+.wrapp .beefsteak .menu .burger:before {
+  width: 25px;
+  top: -8px;
+}
+.wrapp .beefsteak .menu .back {
+  color: #fff;
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  -webkit-transform: translate3d(30px, 0, 0);
+          transform: translate3d(30px, 0, 0);
+  opacity: 0;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.wrapp .beefsteak .cart {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  z-index: 3;
+  cursor: pointer;
+}
+.wrapp .beefsteak .cart > i {
+  color: #000;
+  font-size: 22px;
+}
+.wrapp .beefsteak .content {
+padding: 15px;
+  padding-top: 60px;
+  position: relative;
+}
+.wrapp .beefsteak .content .main-img {
+  text-align: center;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+.wrapp .beefsteak .content .main-img > img {
+  width: 80%;
+}
+.wrapp .beefsteak .content .left-img, .wrapp .beefsteak .content .right-img {
+  position: absolute;
+  top: 60%;
+  z-index: 3;
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: all .25s ease .5s;
+  transition: all .25s ease .5s;
+}
+.wrapp .beefsteak .content .left-img img, .wrapp .beefsteak .content .right-img img {
+  width: 120px;
+}
+.wrapp .beefsteak .content .left-img:hover, .wrapp .beefsteak .content .right-img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.wrapp .beefsteak .content .left-img {
+  left: -60px;
+}
+.wrapp .beefsteak .content .right-img {
+  right: -60px;
+}
+.wrapp .beefsteak .content .info-block {
+  position: relative;
+}
+.wrapp .beefsteak .content .info-block .main-info {
+  text-align: center;
+  -webkit-transition: all 0.25s ease 0.25s;
+  transition: all 0.25s ease 0.25s;
+}
+.wrapp .beefsteak .content .info-block .main-info .title {
+  padding-top: 80px;
+}
+.wrapp .beefsteak .content .info-block .main-info .title h2 {
+  color: #C1C1C1;
+  font-weight: 300;
+  font-size: 20px;
+}
+.wrapp .beefsteak .content .info-block .main-info .price {
+  margin-top: 20px;
+  color: #D6668B;
+  font-size: 1.3em;
+}
+.wrapp .beefsteak .content .info-block .description {
+  position: absolute;
+  top: 0;
+  color: #C1C1C1;
+  padding: 50px 20px 0px 20px;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease 0s;
+  transition: opacity .25s ease 0s;
+}
+.wrapp .beefsteak .content .detail-info {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  text-align: right;
+  -webkit-transform: translate3d(10vw, 0, 0);
+          transform: translate3d(10vw, 0, 0);
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.wrapp .beefsteak .content .detail-info .title {
+  opacity: 0;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.wrapp .beefsteak .content .detail-info .title h2 {
+  color: #C1C1C1;
+  font-weight: 300;
+  font-size: 20px;
+}
+.wrapp .beefsteak .content .detail-info .price {
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+  opacity: 0;
+  color: #D6668B;
+  font-size: 4em;
+  margin: 10px 0;
+}
+.wrapp .beefsteak .content .detail-info .more {
+  text-align: left;
+  margin: 15px 0px 0px 15px;
+  font-weight: 300;
+}
+.wrapp .beefsteak .content .detail-info .more li {
+  opacity: 0;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #C1C1C1;
+}
+.wrapp .beefsteak .content .detail-info .more li i {
+  color: #1D9D74;
+}
+.wrapp .beefsteak .content .cart-button {
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  z-index: 3;
+}
+.wrapp .beefsteak .content .cart-button > a {
+  display: inline-block;
+  width: 20px;
+  height: auto;
+  padding: 12px 80px;
+  border-radius: 20px;
+  background: #D6668B;
+  text-align: center;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.wrapp .beefsteak .content .cart-button > a > i {
+  color: #fff;
+  font-size: 1.4em;
+  vertical-align: middle;
+}
+.wrapp .beefsteak .content .cart-button > a:hover {
+  background: #fff;
+}
+.wrapp .beefsteak .content .cart-button > a:hover > i {
+  color: #D6668B;
+}
+.wrapp .beefsteak .menu-back .back {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.wrapp .beefsteak .menu-back .burger {
+  -webkit-transform: translate3d(-30px, 0, 0);
+          transform: translate3d(-30px, 0, 0);
+  opacity: 0;
+}
+.wrapp .beefsteak .detail-open .left-img, .wrapp .beefsteak .detail-open .right-img {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  opacity: 0;
+}
+.wrapp .beefsteak .detail-open .main-img {
+  -webkit-transform: translate3d(-120px, 0, 0);
+          transform: translate3d(-120px, 0, 0);
+}
+.wrapp .beefsteak .detail-open .info-block .main-info {
+  -webkit-transform: translate3d(25vw, 0, 0);
+          transform: translate3d(25vw, 0, 0);
+  opacity: 0;
+}
+.wrapp .beefsteak .detail-open .info-block .description {
+  -webkit-transition: opacity .25s ease .9s;
+  transition: opacity .25s ease .9s;
+  opacity: 1;
+}
+.wrapp .beefsteak .detail-open .detail-info {
+  -webkit-transition: all .25s ease .5s;
+  transition: all .25s ease .5s;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.wrapp .beefsteak .detail-open .detail-info .title, .wrapp .beefsteak .detail-open .detail-info .price {
+  -webkit-transition: all .25s ease .5s;
+  transition: all .25s ease .5s;
+  opacity: 1;
+}
+.wrapp .beefsteak .detail-open .detail-info .more li {
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+  opacity: 1;
+}
+.wrapp .beefsteak .detail-open .detail-info .more li:nth-child(1) {
+  -webkit-transition-delay: .6s;
+          transition-delay: .6s;
+}
+.wrapp .beefsteak .detail-open .detail-info .more li:nth-child(2) {
+  -webkit-transition-delay: .7s;
+          transition-delay: .7s;
+}
+.wrapp .beefsteak .detail-open .detail-info .more li:nth-child(3) {
+  -webkit-transition-delay: .8s;
+          transition-delay: .8s;
+}
+.wrapp .beefsteak .detail-open .cart-button > a {
+  border-radius: 100% !important;
+  padding: 15px !important;
+  text-align: center;
+  -webkit-transform: translate3d(100px, 0, 0);
+          transform: translate3d(100px, 0, 0);
+}
+
