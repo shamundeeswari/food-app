@@ -1,5 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
 .wrapp {
   padding: 30px;
   font-family: 'Open Sans', sans-serif;
@@ -89,12 +99,16 @@
   z-index: 3;
   cursor: pointer;
 }
+
+.wrapp .beefsteak .cart:focus{
+  outline: none;
+}
 .wrapp .beefsteak .cart > i {
   color: #000;
   font-size: 22px;
 }
 .wrapp .beefsteak .content {
-padding: 15px;
+  padding: 15px;
   padding-top: 60px;
   position: relative;
 }

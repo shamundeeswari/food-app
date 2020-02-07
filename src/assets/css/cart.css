@@ -1,0 +1,913 @@
+
+.line-chart1 ul li h3 ,h3.headings,.add-new-modal h4.modal-title{
+    font-size: 14px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 0px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.order-detail {
+    padding: 3px 15px;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 7px;
+}
+
+.order-detail h5 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.order-detail p {
+    font-size: 13px;
+    color: #777;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+    line-height: 20px;
+}
+
+.add-cart.btn button:last-child ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn.add-cart button {
+    background: #fff;
+    color: #333;
+    box-shadow: 0 0 10px #ddd!important;
+}
+
+.add-cart.btn button:last-child, .btn button:first-child {
+    display: block;
+}
+
+.add-cart.btn button:last-child ul li {
+    color: green;
+}
+
+.payment-detail .location .btn button {
+    border: none;
+    font-size: 12px;    
+    padding: 6px 0px;
+    border-radius: 4px;
+    width: 50px;
+}
+
+
+.btn.add-cart button {
+    background: #fff;
+    color: #333;
+    box-shadow: 0 0 10px #ddd!important;
+}
+
+.btn.add-cart.price button.shadow-none {
+    box-shadow: none!important;
+}
+
+button.add-item {
+    width: 60px!important;
+}
+
+
+.instruction {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;    
+}
+
+.offer-code .card {
+    flex-direction: inherit;
+    border: 1px solid #cccccc61;
+    padding: 15px;
+}
+
+input.coupon-code, textarea.coupon-code{
+    position: relative;
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 1px solid #cccccc82;
+    font-size: 12px;
+    width: 100%;
+    resize: none;
+}
+
+.offer-code .card span{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    background: green;
+    padding: 12px;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+input.coupon-code, textarea.coupon-code:focus{
+    outline: none;
+}
+
+p.collapse-offer {
+    background: #fff;
+}
+
+p.collapse-offer a {
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    border: none;
+    color: #4a4a4a;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+ p.collapse-offer a:hover,
+  p.collapse-offer a:focus,
+   p.collapse-offer a:active,
+ p.collapse-offer a {
+    color: #000!important;
+    font-size: 12px;
+    box-shadow: 0px 0px 2px 1px #cccccc78;
+    background: transparent;
+    border-color: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active{
+    background: transparent!important;
+}
+
+a.ix-toggle i {
+    font-size: 16px;
+    transform: rotate(0deg);
+    margin-left: auto;
+    color: #777;
+    transition: 0.3s;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled):active{
+    box-shadow: none;
+    border-color: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    color: #333;
+    background-color: #fff;
+}
+
+.wrapp .beefsteak .content.cart-content {
+    padding: 0px;    
+    background: #f2f6fc;
+}
+
+.about-food{
+    background: #fff;
+    padding:15px;
+    padding-bottom:5px;
+}
+
+/*payment details start*/
+
+.payment-detail .location{
+    display: flex;
+    margin-bottom: 10px;
+}
+.payment-detail .hei-scl,.payment-detail .hei-scl li {
+    display: flex;
+    width: 100%;
+    background: #fff;
+    align-items: center;
+    cursor: pointer;
+}
+.payment-detail .order-detail h5 {
+    padding: 5px 0;
+}
+ul.hei-scl {
+    background: #fff;
+}
+.payment-detail .order-detail {
+    top: 0;
+}
+.payment-detail .hei-scl img {
+    width: 60px;
+    height: 60px;
+    border-radius: 0px;
+}
+.payment-detail .ride {
+    background: #fff;  
+    margin-top: 15px;
+
+    padding: 0px;
+}
+
+.payment-detail .vehicle{
+    width: 60%;
+}
+ .payment-detail .hei-scl li:focus{
+    outline: none;
+ }
+
+.veg:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 1px solid #4CAF50;
+    position: absolute;
+    left: 0;
+    box-shadow: inset 0 0 3px #4CAF50;
+}
+
+.veg p{
+    font-size: 14px;
+}
+.payment-detail .location .btn {
+    position: absolute;
+    right: 40px;
+    top: -3px;
+    padding: 0;
+}
+.btn.add-cart.price button:first-child {
+    display: block;
+    position: absolute;    
+    right: -50px;
+    background: transparent;
+    box-shadow: none;
+    font-size: 12px;
+}
+.veg {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.veg:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #4CAF50;
+    border: 1px solid #4CAF50;
+    position: absolute;
+    border-radius: 100%;
+    left: 5px;
+    top: 5px;
+}
+
+.payment-detail .locat strong {
+    padding: 0 0px 0 25px;
+}
+
+
+body.theme-one a:hover, body.theme-one a:focus, body.theme-one a:active {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+ul.menu-listing.inline-list li a:hover {
+    border-bottom: 1px solid #ddd;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    color: #333;
+    background-color: #fff;
+ }
+p.collapse-offer a svg {
+    width: 20px;
+    height: 18px;
+    align-items: start;
+    margin-right: 5px;
+}
+.theme-one p.collapse-offer a:hover,.theme-one p.collapse-offer a {
+    color: #333!important;
+    font-size: 14px;
+}
+
+p.collapse-offer {
+    background: #fff;
+}
+
+p.collapse-offer a {
+    display: flex;
+    align-items: center;
+}
+
+a.btn.btn-primary.ix-toggle.collapsed i {
+    transform: rotate(-90deg);
+}
+.bill-reste {
+    background: #fff;
+    padding: 10px 15px;
+
+}
+/*.user-paument-bottom{
+    margin-bottom: 140px;
+}*/
+input.coupon-code.instruction {
+    border: none;
+    margin: 0;
+}
+
+input.coupon-code.instruc {
+    border: none;
+    padding: 10px 5px;
+    color: #5c5c5c;
+}
+.bill-reste ul li span {
+    font-size: 12px;    
+    text-align: right;
+    word-break: break-word;
+}
+
+.home.svg-brdr svg {
+    border: 1px solid #a0a0a0;
+}
+
+.home.svg-brdr span svg {
+    top: -39px;
+    border: none;
+}
+
+.home.svg-brdr span:after {
+    top: -43px;
+}
+.bill-reste ul li:nth-child(6n) span {
+    color: #5daf61;
+    font-weight: 700;
+}
+p.active.info-details {
+    display: block;
+}
+    p.info-details:after {content: '';width: 0px;height: 0px;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #333333;position: absolute;top: -10px;right: 10px;transform: rotate(-90deg);left: -15px;top: 12px;}
+.bill-reste ul li {    
+ /*   border-bottom: 1px dashed #ddd;*/
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount{
+    color: green;
+}
+
+.bill-reste ul li label {    
+    font-size: 12px;
+}
+
+.home svg {
+    width: 90px;
+    height: 80px;
+    padding: 7px 13px;
+}
+.home {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.home span{
+    position: relative;
+}
+.bill-reste.after-add, .pay-after.selected-address .bill-reste{
+    display: none;
+}
+.pay-after.selected-address .bill-reste.after-add {
+    display: block;
+}
+.home span:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    left: -10px;
+    top: -5px;
+    background: green;
+}
+.home span svg{
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    position: absolute;
+    left: -5px;
+    z-index: 1;
+}
+.home span svg path {
+    fill: #fff;
+}
+.bill-reste ul li .home span {
+    width: auto;
+}
+section.side-navs .nav-pills .nav-link{
+    font-weight: 700;
+}
+.deliver-home {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #333;
+    padding-left: 15px;
+}
+
+.deliver-home p {
+    line-height: initial;
+    color: #777;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.deliver-home h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.bill-reste ul li button {
+    width: 50%;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 14px;
+    border: none;
+    vertical-align: top;
+}
+.bill-reste.after-add ul li:last-child {
+    width: 103%;
+    left: -14px;
+    bottom: -10px;
+}
+.select-address .menu-score.recent-orders ul li .food-img svg {
+    width: 60px;
+    height: 20px;
+}
+
+.select-address .menu-score.recent-orders ul li {
+    border: none;
+    align-items: center;
+}
+
+.select-address .menu-score.recent-orders ul li .order-detail {
+    border-bottom: 1px solid #ddd;
+}
+.select-address .menu-score.recent-orders ul li .order-detail h5 {
+    color: #2196F3;
+    font-weight: 700;
+}
+.select-address .menu-score.recent-orders ul li.plus .food-img {
+    width: 65px;
+    text-align: center;
+    font-size: 32px;
+    color: #ea5a16;
+}
+.select-address .menu-score.recent-orders ul {
+    height: auto;
+    overflow: unset;
+}
+.select-address .menu-score.recent-orders ul li.plus .order-detail {
+    border-bottom: 0;
+}
+
+.select-address .menu-score.recent-orders ul li .order-detail p:last-child {
+    color: #525252;
+    font-size: 12px;
+    padding: 3px 0;
+}
+
+.select-address .menu-score.recent-orders ul li .order-detail p {
+    padding: 0;
+}
+.bill-reste ul li:last-child {
+    border-bottom: 0;
+    font-size: 0;
+    border-top: 1px dashed #ddd;
+    padding-top: 10px;
+}
+.payment-mode.bill-reste ul li span {
+    color: #ea5a17;
+    font-size: 12px;
+}
+.bill-reste ul li button:last-child {
+    background: #4CAF50;
+    color: #fff;
+}
+.change-address .bill-reste ul li span.change{
+    color: #ea5a16;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+.back-btn svg {
+    width: 15px;
+    height: 20px;
+}
+.select-address.active .address-overley:after {content: '';background: #000000b0;position: fixed;left: 0;top: 0;width: 100%;height: 100%;}
+.back-btn {
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+}
+.bill-reste ul li label strong svg {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #333;
+    border-radius: 35px;
+    padding: 0px 2px;
+    position: relative;
+    cursor: pointer;
+    top: 0px;
+}
+p.info-details {
+    position: absolute;
+    width: 180px;
+    left: 140px;
+    top: 0;
+    font-size: 13px;
+    background: #333;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 4px;
+    padding: 5px;
+    display: none;
+}
+.bill-reste ul li button:last-child a, .bill-reste ul li button:last-child a:hover {
+    color: #fff!important;
+}
+.bill-reste ul li label strong svg path {
+    fill: #333;
+}
+.bill-reste ul li button:first-child {
+    background: #dddd;
+    text-align: left;
+}
+
+li.payment label {
+    font-weight: 700;
+}
+
+.bill-reste ul li button:first-child h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bill-reste ul li button:first-child h5 {
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0 0 0;
+    color: #2196F3;
+}
+
+.payment-mode.bill-reste {
+    padding: 0;
+}
+
+.payment-mode.bill-reste h3, .payment-mode.net-banking h3{
+    background: #f5f5f5;
+    padding: 22px 0 10px 0;
+}
+.payment-mode.net-banking ul li img {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.payment-mode.net-banking a .slick-slide{
+      background: white;
+    padding: 30px 0;
+
+}
+.payment-mode.bill-reste ul {
+    padding: 15px;
+}
+.bill-reste ul li label img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #ddd;
+    margin-right: 10px;
+}
+.payment-mode.bill-reste ul li:last-child {
+    background: #fff;
+    display: block;
+}
+.payment-mode.card-pay.bill-reste ul li label img {
+    box-shadow: none;
+    border-radius: 4px;
+    width: 52px;
+    height: 100%;
+}
+.payment-mode.bill-reste ul li:last-child .add-another-card {
+    width: 52px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #ea5a17;
+    color: #ea5a17;
+    padding: 0 0;
+    border-radius: 4px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    margin-right: 12px;
+    position: relative;
+    top: 8px;
+}
+
+.payment-mode.bill-reste ul li:last-child label p {
+    font-size: 14px;
+    color: #ababab;
+    margin-left: 68px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.menu-score.recent-orders .order-detail h5 {
+    padding-right: 60px;
+    position: relative;
+}
+
+.menu-score.recent-orders .order-detail h5 strong {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    color: #ea6021;
+    font-weight: 700;
+}
+.menu-score.recent-orders .order-detail h5 strong span {
+    font-weight: 400;
+
+}
+.payment-mode.bill-reste ul li:last-child label {
+    font-size: 16px;
+    font-weight: 700;
+}
+.payment-mode.bill-reste ul li:last-child {
+    margin: 0;
+}
+.track-order {
+    position: relative;
+}
+.track-order .mesg span svg {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50px;
+}
+.track-order .timeline-orders {
+    background-image: url('../img/food-delivery.jpg');
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: 40%;
+}
+.track-order  .mesg {
+    padding-left: 50px;
+}
+.timeline-orders .mesg p {
+    line-height: 20px;
+}
+.track-order .timeline-orders ul li {
+    padding-bottom: 35px;
+}
+.modal-body.payment-done a,.modal-body.payment-done a:hover {
+    font-size: 12px;
+    line-height: 40px;
+    color: #333;
+    text-decoration: underline;
+}
+.payment-mode.card-pay.bill-reste ul li span svg {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ddd;
+    padding: 7px 0;
+    border-radius: 100%;
+}
+
+.payment-mode.card-pay.bill-reste ul li span svg path {
+    fill: #9a9797;
+}
+.payment-mode.food-card.bill-reste ul li label img {
+    box-shadow: none;
+    width: 50px;
+    margin-right: 12px;
+    height: 100%
+}
+.payment-mode.bill-reste ul li label p span {
+    float: none;
+    padding: 0 3px;
+    color: #948989;
+}
+
+
+.theme-one a.single-item:hover {
+    background: transparent;
+}
+
+div#collapse2 ul li {
+    font-size: 13px;
+    color: #5b5b5b;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+div#collapse2 ul li:hover {
+    color: #ea5a17;
+}
+.payment-mode.net-banking p.collapse-offer a {
+    margin: 0;
+    border-top: 1px dashed #ddd;
+    border-radius: 0;
+    color: #ea5a17!important;
+    padding: 15px 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled):active{
+    box-shadow: none;
+    border-color: none;
+}
+
+div#collapse2 .card {
+    border: none;
+    border-top: 1px dashed #ddd;
+    border-radius: 0;
+}
+
+/*toggle on/off button0*/
+.payment-mode.bill-reste ul li span button {
+    border: none;
+    background: none;
+    font-size: 12px;
+    color: #ea5a16;
+    text-align: right;
+    width: auto;
+    padding: 0;
+}
+.modal-title {
+    font-size: 16px;
+}
+.modal-body.payment-done{
+        text-align: center;
+    padding: 70px 20px;
+    position: relative;
+}
+.modal-body.scroll {
+    overflow: hidden;
+    height: 200px;
+}
+.modal-body.payment-done button.close {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+.modal-body.payment-done svg {
+    width: 50px;
+    height: 50px;
+}
+
+.modal-body.payment-done h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 42px;
+}
+
+.modal-body.payment-done p {
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+/*change address form*/
+.ad-nw-adrs iframe {
+    width: 100%;
+    height: 200px;
+}
+.timeline-orders ul li.completed:after {
+    background: #4CAF50;
+}
+
+.timeline-orders li.completed .mesg svg path, .timeline-orders li.completed .mesg h6,.timeline-orders li.completed .mesg p {
+    fill: #a0a0a0;
+    color: #a0a0a0;
+}
+ul.order-num {
+    display: flex;
+    align-items: center;
+    background: #eaeaea;
+    padding: 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+ul.order-num li {
+    width: 50%;
+    text-align: center;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 16px 10px 10px 10px;
+    border-left: 1px solid #fff;
+}
+
+ul.order-num li p {
+    font-size: 15px;
+}
+
+.ad-nw-adrs,.track-order {
+    background: #fff;
+    width: calc(100% - 110px);
+    position: fixed;
+    bottom: -680px;
+    left: 110px;
+    transition: 0.3s;
+}
+.active.track-order .back-btn {
+    top: 20px;
+}
+.active.track-order {
+    bottom: 0;
+    top: 85px;
+    padding-top: 5px;
+}
+.enter-save.active button:first-child {
+    display: none;
+}
+
+.enter-save.active button:last-child {
+    display: block;
+}
+.location-form .form-control {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 8px 0;
+    color: #333;
+    font-weight: 600;
+    outline: none;
+}
+.active.ad-nw-adrs {
+    bottom: 0;
+}
+.location-form ul li svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.location-form ul li {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    border-bottom: 2px solid #8a8787;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.location-form ul.opacity li {
+    opacity: 0.3;
+}
+
+.location-form ul.opacity li:last-child {
+    opacity: 1;
+}
+.location-form ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.location-form .form-group label {
+    font-size: 13px;
+    color: #9c9c9c;
+}
+.location-form h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.location-form {
+    padding: 15px 30px;
+}
+.prfl-set .view-more button input {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.prfl-set .view-more button input:after {content: 'UBdate file';position: absolute;top: 0px;left: 0px;border-radius: 4px;background: #fff;width: 100%;text-transform: uppercase;right: 0;text-align: center;font-weight: 700;padding: 2px 0;line-height: 22px;height: auto;color: #ea5a16;transition: 0.3s;cursor: pointer;}
+
+.prfl-set .view-more button:hover input:after {
+    background: #ea5a16;
+    color: #fff;
+}
+.location-form .form-control:focus {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ea5a16;
+}
+/*change address form end*/
+
+/*payment detail end*/

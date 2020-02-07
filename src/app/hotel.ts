@@ -7,7 +7,7 @@ export const hotels = [
     rating:4.2,
     type: 'South Indian',
     many :'two',
-
+    location:'OMR perungudi',
     item :
 
 
@@ -62,7 +62,7 @@ export const hotels = [
     rating:4.1,
     type: 'Japanese,continental',
     many :'two',
- 
+    location:'Adyar',
 
     item :
 
@@ -121,7 +121,7 @@ export const hotels = [
     rating:4.2,
     type: 'American,Fast Food',
     many :'two',
-    
+    location:'Kandanchavadi,OMR perungudi',
 
       item :
 
@@ -173,6 +173,7 @@ export const hotels = [
     type: 'continental,Italian,American',
     many :'two',
     new:'Newly added',
+    location:'Velachery',
 
       item :
 
