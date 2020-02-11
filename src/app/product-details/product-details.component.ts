@@ -15,9 +15,9 @@ export class ProductDetailsComponent implements OnInit {
  hotel;
 
 
-  addToCart(hotel){
+ callAll(item,hotel){
     window.alert('Your product has been added to the cart!');
-    this.cartService.addToCart(hotel);
+    this.cartService.callAll(item,hotel);
   }
 
 

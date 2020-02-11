@@ -30,31 +30,48 @@
 
 					<div class="food-detail">
 
-						<h5  title="hotel.name + ' details'" > {{ hotel.name }}
-							<strong class="active default">
-								<div class="heart"></div>
-							</strong>
+						<h5  [title]="hotel.name + ' details'" > {{ hotel.name }}
+							<!-- <span class="active default">
+					 ss			 <div class="heart"></div> 
+								<i class="fa fa-share-alt"></i>
+							</span> -->
 						</h5>
 
 						<p>{{hotel.type}}</p>
 						
+						  <app-product-alert 
+							 [hotel] = "hotel" > 
+							
+						</app-product-alert>
+						  
+  
 						<div class="ride">
 							<div class="location">			 						
 								<div class="vehicle">
-	 							<div class="locat">
-	 								<i class="fa fa-star"></i>
-	 								<strong class="">{{ hotel.rating }} .</strong>
-	 								<strong class="">{{ hotel.min }} min .</strong>
-	 								<i class="rup"> ₹ </i>
-	 								<strong class="">{{ hotel.price }} for {{hotel.many}}</strong>
-	 							</div>			 							
+									<div class="locat">
+										<div class="rating-food">
+											<i class="fa fa-star"></i>
+											<strong class="">{{ hotel.rating }} </strong>
+										</div>
+										<div class="dot">
+											.
+										</div>
+										<div class="min">
+											<strong class="">{{ hotel.min }} min </strong>
+										</div>
+										<div class="dot">
+											.
+										</div>	
+										<div class="rupee">
+											<strong class=""> ₹  {{ hotel.for_two }} for {{hotel.many}}</strong>
+										</div>
+									</div>			 							
 								</div>
 							</div>
 						</div>
 					</div>
 	 			</div>
-		</div>
-
+			</div>
 		</div>
 	</div>
 </div>

@@ -9,7 +9,8 @@ import { CartService } from '../cart.service';
 export class CartComponent implements OnInit {
 
   items;
-
+  hotel;
+  
 
   isShowDivIf = false;
   
@@ -26,7 +27,9 @@ export class CartComponent implements OnInit {
 
   ngOnInit() {
 
-  	 this.items=this.cartService.getItems();
+     this.items=this.cartService.getItems();
+     this.hotel = this.cartService.getHotel();
+
   }
 
 }

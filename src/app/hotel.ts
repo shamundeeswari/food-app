@@ -2,12 +2,13 @@ export const hotels = [
   {
     img:'assets/images/meals.jpeg',
     name: 'Hotel sangeetha',    
-    price: 150,
+    for_two :150,
     min:10,
     rating:4.2,
     type: 'South Indian',
     many :'two',
     location:'OMR perungudi',
+    offer:40,
     item :
 
 
@@ -57,12 +58,13 @@ export const hotels = [
    {
     img:'assets/images/pizza.jpeg',
     name: 'Jonah Bistro',  
-    price: 800,
+    for_two : 800,
     min:30,
-    rating:4.1,
+    rating:3.8,
     type: 'Japanese,continental',
     many :'two',
     location:'Adyar',
+    offer:10,
 
     item :
 
@@ -113,15 +115,55 @@ export const hotels = [
 
   },
 
-   {
+    {
+    img:'assets/images/panner.jpeg',
+    name: 'Lattice',    
+    for_two :1500,
+    min:34,
+    rating:4.1,
+    type: 'continental,Italian,American',
+    many :'two',
+    new:'Newly added',
+    location:'Velachery',
+    offer:40,
+      item :
+
+
+            [
+                {
+
+                    img :'assets/images/pizza.jpeg',
+                    name :'Margherita (Medium)',
+                    description:'Veg Pizza',
+                    price:299,
+                    bestseller:''
+
+                },
+
+                {
+
+                    img :'assets/images/pastha.jpeg',
+                    name :'Spanish Tomato Veg Pasta',
+                    description:'Pasta',
+                    price:169,
+                    bestseller:'Best seller',
+
+                },
+            
+           ] 
+  },
+
+
+  {
     img:'assets/images/subway.jpeg',
     name: 'Sub way',    
-    price: 450,
+    for_two :450,
     min:23,
     rating:4.2,
     type: 'American,Fast Food',
     many :'two',
     location:'Kandanchavadi,OMR perungudi',
+    offer:30,
 
       item :
 
@@ -163,42 +205,5 @@ export const hotels = [
 
 
     
-  },
-    {
-    img:'assets/images/panner.jpeg',
-    name: 'Lattice',    
-    price: 1500,
-    min:34,
-    rating:4.0,
-    type: 'continental,Italian,American',
-    many :'two',
-    new:'Newly added',
-    location:'Velachery',
-
-      item :
-
-
-            [
-                {
-
-                    img :'assets/images/pizza.jpeg',
-                    name :'Margherita (Medium)',
-                    description:'Veg Pizza',
-                    price:299,
-                    bestseller:''
-
-                },
-
-                {
-
-                    img :'assets/images/pastha.jpeg',
-                    name :'Spanish Tomato Veg Pasta',
-                    description:'Pasta',
-                    price:169,
-                    bestseller:'Best seller',
-
-                },
-            
-           ] 
   }
  ]
