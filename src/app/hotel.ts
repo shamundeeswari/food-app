@@ -115,46 +115,7 @@ export const hotels = [
 
   },
 
-    {
-    img:'assets/images/panner.jpeg',
-    name: 'Lattice',    
-    for_two :1500,
-    min:34,
-    rating:4.1,
-    type: 'continental,Italian,American',
-    many :'two',
-    new:'Newly added',
-    location:'Velachery',
-    offer:40,
-      item :
-
-
-            [
-                {
-
-                    img :'assets/images/pizza.jpeg',
-                    name :'Margherita (Medium)',
-                    description:'Veg Pizza',
-                    price:299,
-                    bestseller:''
-
-                },
-
-                {
-
-                    img :'assets/images/pastha.jpeg',
-                    name :'Spanish Tomato Veg Pasta',
-                    description:'Pasta',
-                    price:169,
-                    bestseller:'Best seller',
-
-                },
-            
-           ] 
-  },
-
-
-  {
+{
     img:'assets/images/subway.jpeg',
     name: 'Sub way',    
     for_two :450,
@@ -205,5 +166,42 @@ export const hotels = [
 
 
     
+  },
+    {
+    img:'assets/images/panner.jpeg',
+    name: 'Lattice',    
+    price: 1500,
+    min:34,
+    rating:4.0,
+    type: 'continental,Italian,American',
+    many :'two',
+    new:'Newly added',
+    location:'Velachery',
+
+      item :
+
+
+            [
+                {
+
+                    img :'assets/images/pizza.jpeg',
+                    name :'Margherita (Medium)',
+                    description:'Veg Pizza',
+                    price:299,
+                    bestseller:''
+
+                },
+
+                {
+
+                    img :'assets/images/pastha.jpeg',
+                    name :'Spanish Tomato Veg Pasta',
+                    description:'Pasta',
+                    price:169,
+                    bestseller:'Best seller',
+
+                },
+            
+           ] 
   }
  ]

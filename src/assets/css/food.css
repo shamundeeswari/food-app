@@ -1,15 +1,16 @@
 
 .food-list {
     margin-bottom: 15px;
-    position: relative;
+    position: relative;     
 }
+
 
 .menus .food-list {
     display: flex;
     align-items: center;
     background: #fff;
     z-index: 0;
-    border-radius: 4px;
+    border-radius: 4px;    
     cursor: pointer;
 
 }
@@ -278,7 +279,6 @@ strong.active:focus{
 
 .food-list.list-detail .vehicle {
     display: flex;
-    
 }
 
 .offer-percent p{

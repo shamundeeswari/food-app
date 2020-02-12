@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
 
@@ -9,41 +9,41 @@ import { Injectable } from '@angular/core';
 export class CartService {
 
 	items=[];
-	hotel=[];
+	hotels;
+
 
 	addToCart(item){
 		this.items.push(item);
 	}
 
 	addToHotel(hotel){
-		this.hotel.push(hotel);
+		this.hotels = hotel;
 	}
 
-
-
-	callAll(item,hotel){
-		this.addToCart(item)
-		this.addToHotel(hotel)
+	allToCart(item,hotel){
+		this.addToCart(item);
+		this.addToHotel(hotel);
 	}
 
-	
 	getItems(){
 		return this.items;		
 	}
 
-	getHotel(){
-		return this.hotel;		
+	getHotels(){
+		return this.hotels;		
 	}
-
-
 
 	clearCart(){
 		this.items=[];
 		return this.items
 	}
 
+	getShippingPrices() {
+    	return this.http.get('/assets/shipping.json');
+  	}
 
   constructor(
+  	private http: HttpClient
 
   	) { }
 }

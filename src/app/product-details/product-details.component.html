@@ -23,7 +23,7 @@
 						</span>
 
 						<div class="img">
-							<img [src]="item.img" alt="{{item.name}}">
+							<img [src]="item['img']" alt="{{item['name']}}">							
 						</div>
 
 						<div class="food-detail  veg-light">
@@ -44,7 +44,7 @@
 								</div>
 									
 								<div class="food-add">
-									<button class=" btn " (click)="callAll(item,hotel)">Add</button>
+									<button class=" btn " (click)="allToCart(item,hotel)">Add</button>
 									<!-- <button>
 										<ul><li class="remove">-</li>
 										<li>1</li>

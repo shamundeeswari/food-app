@@ -22,15 +22,15 @@
 				<div class="col-12">					
 					<div class="payment-detail">
 						<div class="about-food">
-							<ul class="hei-scl" *ngFor ="let hotel of hotel">
-								<li [routerLink]="['/']" >
+							<ul class="hei-scl">
+								<li [routerLink]="['/']" *ngIf="hotel">
 									<div class="">										
-										<img [src]="hotel.img" alt="{{hotel.name}}">
+										<img [src]="hotel['img']" alt="{{hotel['name']}}">
 									</div>
 
 									<div class="order-detail" >
 										<h5> {{hotel.name}}</h5>
-										<p>  {{hotel.location}}</p>
+										<p> {{ hotel.location}} </p>
 									</div>
 								</li>
 					 		</ul>
